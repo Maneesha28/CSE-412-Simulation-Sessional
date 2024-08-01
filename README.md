@@ -1,6 +1,6 @@
 # CSE-412-Simulation-Sessional
 
-This repository contains the assignments of the course CSE 412: Simulation and Modeling Sessional.
+This repository contains the assignments of the course CSE 412: Simulation and Modeling Sessional. An overview of the assignments is given below. For more details of the assignments, please refer to the respective folders.
 
 ## Assignment 1: Simulation of a Single Server Queueing System
 
@@ -16,7 +16,7 @@ In the output file, you would first show all the necessary details of the Invent
 
 **PERT (Program Evaluation and Review Technique) Chart Analysis** is a widely used project management tool for scheduling, organizing, and coordinating tasks within a certain project. The PERT Chart provides a graphical representation of a project’s timeline, enabling project managers to break down each individual task within the project for analysis.
 
-In this assignment, we will analyze two simulated projects using information from their corresponding PERT charts. We will use following 3 (three) probability distributions in this assignment to introduce stochasticity in the simulation.
+In this assignment, we will analyze two simulated projects using information from their corresponding PERT charts. We will use following **3 (three) probability distributions** in this assignment to introduce stochasticity in the simulation.
 
 1. Triangular Triang(a, b, m) distribution
 2. Right-triangular RT(a, b) distribution
@@ -50,4 +50,10 @@ neutrons. Our task is to **calculate the probability distribution of the number 
 
 **Problem-2**
 
-In this task, we will simulate the [Secretary Problem / Optimal Marriage Problem](https://www.npr.org/sections/krulwich/2014/05/15/312537965/how-to-marry-the-right-girl-a-mathematical-solution)
+In this task, we will simulate the [Secretary Problem / Optimal Marriage Problem](https://www.npr.org/sections/krulwich/2014/05/15/312537965/how-to-marry-the-right-girl-a-mathematical-solution).
+
+A strategy may be followed where a sample group of size m is to be interviewed at first only for the purpose of setting a standard which is the best from this sample group. Nobody can be selected from this sample group while interviewing them one after the other. After the standard is set, anyone who is better than the standard will be selected. 
+
+For this task, you have to take an input of *population size n, and the success criteria s*. Here, s can be 1, 3, 5, or 10 which means the strategy is successful if the best, or anyone from top 3, or top 5, or top 10 was selected.
+
+For a fixed value of n and s, the output is the **probability of success of a sample size m**. For n = 100 candidates with each success criteria s, **plot the Success Rate vs. sample size (m)** graphs to show the [optimal strategy](https://surajregmi.medium.com/what-is-secretary-problem-problem-definition-its-mathematics-and-real-life-scenarios-b4a2f2df912c) from where to choose the candidates.
